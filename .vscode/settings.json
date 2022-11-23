@@ -1,0 +1,35 @@
+{
+    "editor.minimap.enabled": false,
+    "editor.fontSize": 15,
+    "go.testEnvVars": {
+        "workspaceFolder": "${workspaceFolder}",
+        "logLevel":"debug",
+        "logPath": "${workspaceFolder}\\logs"
+    },
+    "go.testTimeout": "30h",
+    "go.testFlags": [
+        "-v",
+        "-count=1",
+        "-benchtime=1000x"
+    ],
+    // "go.testEnvFile": "${workspaceFolder}\\.vscode\\.env",
+    "window.zoomLevel": 0.8,
+    "go.inferGopath": false,
+    "go.autocompleteUnimportedPackages": true,
+    "go.gocodePackageLookupMode": "go",
+    "go.gotoSymbol.includeImports": true,
+    "go.useCodeSnippetsOnFunctionSuggest": true,
+    "go.useCodeSnippetsOnFunctionSuggestWithoutType": true,
+    "go.docsTool": "gogetdoc",
+    "go.useLanguageServer": true,
+    "editor.quickSuggestionsDelay": 0,
+    "editor.quickSuggestions": {
+        "comments": "on",
+        "strings": "on",
+        "other": "on"
+    },
+    "editor.detectIndentation": false,
+    "editor.tabSize": 4,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+}
